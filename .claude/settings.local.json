@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo list:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npm install)",
+      "Bash(npm audit:*)",
+      "Bash(npm run build:*)",
+      "Bash(jq:*)",
+      "Bash(find:*)",
+      "Bash(/dev/null)",
+      "WebFetch(domain:mb.pste.us)",
+      "Read(//tmp/**)",
+      "WebFetch(domain:howtomgr.github.io)",
+      "WebFetch(domain:github.com)",
+      "Bash(npm ls:*)",
+      "Bash(gh api:*)",
+      "Bash(gh run view:*)",
+      "Bash(timeout 30s npm run build:*)",
+      "Bash(timeout 60s npm run build:*)",
+      "Bash(killall:*)",
+      "Bash(NEXT_TELEMETRY_DISABLED=1 npm run build)",
+      "Bash(export NEXT_TELEMETRY_DISABLED=1)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
